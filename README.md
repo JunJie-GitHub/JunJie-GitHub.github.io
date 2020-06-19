@@ -1,6 +1,4 @@
 # JunJie-GitHub.github.io
-个人网站
+# 绑定域名 : jerrys.xyz
 
-注意：
-  仅支持静态网页
-
+思维导图
