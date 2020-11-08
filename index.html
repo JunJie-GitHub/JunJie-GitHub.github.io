@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>好好学习, 天天向上</title>
-  <link rel="stylesheet" type="text/css" href = "./css/style.css">
-  <script type="text/javascript" src="./js/script.js"></script>
-
+  <link rel="stylesheet" type="text/css" href = "css/style.css">
   <!-- waifu-tips.js 依赖 JQuery 库 -->
   <script src="assets/jquery.min.js?v=3.3.1"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
   <!-- 实现拖动效果，需引入 JQuery UI -->
   <script src="assets/jquery-ui.min.js?v=1.12.1"></script>
   
@@ -126,13 +126,14 @@
         </div>
     </div>
         
-    <script src="assets/waifu-tips.min.js?v=1.4.2"></script>
+    <!-- <script src="assets/waifu-tips.min.js?v=1.4.2"></script> -->
+    <script src="assets/waifu-tips.min.js"></script>
     <script src="assets/live2d.min.js?v=1.0.5"></script>
 
     <script type="text/javascript">
         /* 可直接修改部分参数 */
         live2d_settings['modelId'] = 5;                  // 默认模型 ID
-        live2d_settings['modelTexturesId'] = 87;         // 默认材质 ID
+        live2d_settings['modelTexturesId'] = 0;         // 默认材质 ID
         live2d_settings['modelStorage'] = false;         // 不储存模型 ID
         live2d_settings['canCloseLive2d'] = false;       // 隐藏 关闭看板娘 按钮
         live2d_settings['canTurnToHomePage'] = false;    // 隐藏 返回首页 按钮
