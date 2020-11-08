@@ -29,8 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf923484-cf5b-4a8c-9c2a-57d491f535ef" name="Default Changelist" comment="美化标题栏">
-      <change beforePath="$PROJECT_DIR$/assets/waifu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/waifu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/waifu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/waifu.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -126,7 +124,7 @@
       <workItem from="1604819223395" duration="5403000" />
       <workItem from="1604824691582" duration="63000" />
       <workItem from="1604824760190" duration="738000" />
-      <workItem from="1604825514040" duration="1956000" />
+      <workItem from="1604825514040" duration="2759000" />
     </task>
     <task id="LOCAL-00001" summary="美化标题栏">
       <created>1604821807939</created>
