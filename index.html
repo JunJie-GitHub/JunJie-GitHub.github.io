@@ -19,99 +19,48 @@
 
 <body>
   <a href="index.html"> <strong>首页</strong></a>
-      <div class="allTitle">
-        <!---Java学习板块-->
-        <dl class="java">
-          <dt><a href="Java.html"> Java入门学习路线 </a> </dt>
-          <dd><a href="Java/GettingStartedWthJava.html"> Java编程入门 </a> </dd>
-          <dd><a href="Java/OOP.html"> Java面向对象编程 </a> </dd>
-          <dd><a href="Java/AdvancedFeatures.html"> Java高级语言特性 </a> </dd>
-          <dd><a href="Java/JDBC.html"> JDBC开发 </a> </dd>
-          <dd><a href="Java/JavaFrame.html"> Java框架 </a> </dd>
-        </dl>
-        <!---Python学习板块-->
-        <dl class="python">
-          <dt><a href="Python.html"> > Python学习路线 </a><br /> </dt>
+      <div id="divTitle">
+          <div id="Title">
+              <!---Java学习板块-->
+              <dl class="java">
+                  <dt><a href="Java.html"> Java入门学习路线 </a> </dt>
+                  <dd><a href="Java/GettingStartedWthJava.html"> Java编程入门 </a> </dd>
+                  <dd><a href="Java/OOP.html"> Java面向对象编程 </a> </dd>
+                  <dd><a href="Java/AdvancedFeatures.html"> Java高级语言特性 </a> </dd>
+                  <dd><a href="Java/JDBC.html"> JDBC开发 </a> </dd>
+                  <dd><a href="Java/JavaFrame.html"> Java框架 </a> </dd>
+              </dl>
+              <!---Python学习板块-->
+              <dl id="python">
+                  <dt><a href="Python.html"> > Python学习路线 </a><br /> </dt>
 
-        </dl>
-        <!---前端开发学习板块-->
-        <dl class="frontenddevelopment">
-          <dt><a href="FrontEndDevelopment.html"> > 前端开发学习路线 </a><br /> </dt>
-          <dd><a href="FrontEndDevelopment/HTML.html"> HTML </a> </dd>
-          <dd><a href="FrontEndDevelopment/CSS.html"> CSS </a> </dd>
-          <dd><a href="FrontEndDevelopment/JavaScript.html"> JavaScript </a> </dd>
-        </dl>
-        <!---数据库学习板块-->
-        <dl class="database">
-          <dt> <a href="Database.html"> > 数据库学习路线 </a><br /> </dt>
-          <dd><a href="Database/SQL.html"> SQL语言 </a> </dd>
-        </dl>
-        <!---Git使用指南板块-->
-        <dl class="git">
-          <dt> <a href="Git.html"> > git使用指南 </a><br /></dt>
+              </dl>
+              <!---前端开发学习板块-->
+              <dl id="frontenddevelopment">
+                  <dt><a href="FrontEndDevelopment.html"> > 前端开发学习路线 </a><br /> </dt>
+                  <dd><a href="FrontEndDevelopment/HTML.html"> HTML </a> </dd>
+                  <dd><a href="FrontEndDevelopment/CSS.html"> CSS </a> </dd>
+                  <dd><a href="FrontEndDevelopment/JavaScript.html"> JavaScript </a> </dd>
+              </dl>
+              <!---数据库学习板块-->
+              <dl id="database">
+                  <dt> <a href="Database.html"> > 数据库学习路线 </a><br /> </dt>
+                  <dd><a href="Database/SQL.html"> SQL语言 </a> </dd>
+              </dl>
+              <!---Git使用指南板块-->
+              <dl id="git">
+                  <dt> <a href="Git.html"> > git使用指南 </a><br /></dt>
 
-        </dl>
-        <!---专业英语-->
-        <dl class="english">
-          <dt> <a href="English.html"> > 专业英语 </a><br /></dt>
+              </dl>
+              <!---专业英语-->
+              <dl id="english">
+                  <dt> <a href="English.html"> > 专业英语 </a><br /></dt>
 
-        </dl>
+              </dl>
+
+          </div>
       </div>
-      
-      <!-- <div class="vs" id = "footer">
-        <script language=JavaScript>
-        var caution = false
-        function setCookie(name, value, expires, path, domain, secure) {
-          var curCookie = name + "=" + escape(value) +
-            ((expires) ? "; expires=" + expires.toGMTString() : "") +
-            ((path) ? "; path=" + path : "") +
-            ((domain) ? "; domain=" + domain : "") +
-            ((secure) ? "; secure" : "")
-          if (!caution || (name + "=" + escape(value)).length <= 4000)
-            document.cookie = curCookie
-          else
-            if (confirm("Cookie exceeds 4KB and will be cut!"))
-              document.cookie = curCookie
-        }
-        function getCookie(name) {
-          var prefix = name + "="
-          var cookieStartIndex = document.cookie.indexOf(prefix)
-          if (cookieStartIndex == -1)
-            return null
-          var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
-          if (cookieEndIndex == -1)
-            cookieEndIndex = document.cookie.length
-          return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
-        }
-        function deleteCookie(name, path, domain) {
-          if (getCookie(name)) {
-            document.cookie = name + "=" +
-              ((path) ? "; path=" + path : "") +
-              ((domain) ? "; domain=" + domain : "") +
-              "; expires=Thu, 01-Jan-70 00:00:01 GMT"
-          }
-        }
-        function fixDate(date) {
-          var base = new Date(0)
-          var skew = base.getTime()
-          if (skew > 0)
-            date.setTime(date.getTime() - skew)
-        }
-        var now = new Date()
-        fixDate(now)
-        now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
-        var visits = getCookie("counter")
-        if (!visits)
-          visits = 1
-        else
-          visits = parseInt(visits) + 1
-        setCookie("counter", visits, now)
-        document.write("你是第 " + visits + "次访问本站的！")
-      </script>
-    </div> -->
-      
-      
-    
+
     <div class="waifu" >
         <div class="waifu-tips"></div>
         <canvas id="live2d" class="live2d"></canvas>
