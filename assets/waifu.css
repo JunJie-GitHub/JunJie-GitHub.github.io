@@ -48,6 +48,7 @@
 }
 .waifu #live2d{
     position: relative;
+    opacity: 70%;
 }
 
 @keyframes shake {
