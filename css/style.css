@@ -2,6 +2,25 @@
 /*
     超链接样式
 */
+.Header, .Header-item {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+.Header {
+    z-index: 32;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: whitesmoke;
+    background-color: rgba(188,221,255,0.04)
+    /*background-color: #5b6c7d;*/
+}
+.Header-item {
+    margin-right: 16px;
+    align-self: stretch;
+}
+
 a:link {
     color: darkgray;
     text-decoration: none;
